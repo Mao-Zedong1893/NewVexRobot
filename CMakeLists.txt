@@ -24,7 +24,7 @@ endforeach()
 list(REMOVE_DUPLICATES INCLUDE_DIRS)
 
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}/include")
-add_executable(VexRobot ${SOURCES} ${HEADERS} src/a.cpp src/drive.cpp include/move.h src/auton.h src/auton.cpp src/auton.h src/tilter.cpp src/tilter.h src/globals.cpp src/globals.h)
+add_executable(VexRobot ${SOURCES} ${HEADERS} src/a.cpp src/drive.cpp include/move.h include/auton.h src/auton.cpp include/auton.h src/tilter.cpp src/tilter.h src/globals.cpp include/globals.h)
 
 #[[
 # Headers/include path

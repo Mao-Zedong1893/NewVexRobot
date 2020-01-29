@@ -12,17 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="714fcde3-726a-4e00-b9d4-15677f6e9991" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/cquery_cached_index/d@@mycreations@newvexrobot/src@globals.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/cquery_cached_index/d@@mycreations@newvexrobot/src@globals.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/cquery_cached_index/d@@mycreations@newvexrobot/src@globals.cpp.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/cquery_cached_index/d@@mycreations@newvexrobot/src@globals.cpp.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/cquery_cached_index/d@@mycreations@newvexrobot/src@globals.h" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/cquery_cached_index/d@@mycreations@newvexrobot/src@globals.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/cquery_cached_index/d@@mycreations@newvexrobot/src@globals.h.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/cquery_cached_index/d@@mycreations@newvexrobot/src@globals.h.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/auton.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auton.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/auton.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/globals.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/globals.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/globals.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/globals.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auton.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/auton.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/globals.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/globals.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
