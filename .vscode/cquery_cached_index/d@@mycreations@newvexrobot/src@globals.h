@@ -7,7 +7,7 @@
 
 #include <api.h>
 
-extern Controller master);
+extern pros::Controller master;
 extern pros::Motor leftFront;
 
 extern pros::Motor leftBack;

@@ -5,6 +5,10 @@
 #ifndef VEXROBOT_GLOBALS_H
 #define VEXROBOT_GLOBALS_H
 
+<<<<<<< Updated upstream
+=======
+#include <api.h>
+>>>>>>> Stashed changes
 #include "api.h"
 #include "main.h"
 
