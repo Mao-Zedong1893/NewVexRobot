@@ -1,0 +1,1 @@
+/usr/bin/c++.exe  -Wall -g  -Wl,--enable-auto-import CMakeFiles/VexRobot.dir/src/a.cpp.o CMakeFiles/VexRobot.dir/src/main.cpp.o  -o VexRobot.exe -Wl,--out-implib,libVexRobot.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
