@@ -18,15 +18,4 @@ pros::Motor arm(1, MOTOR_GEARSET_18, false, MOTOR_ENCODER_COUNTS);
 pros::Motor tilter(6,MOTOR_GEARSET_36, false,MOTOR_ENCODER_COUNTS);
 //controller
 pros::Controller master(CONTROLLER_MASTER);
-
-#include "globals.h"
-#include "api.h"
-#include "main.h"
-
-pros::Controller master(pros::E_CONTROLLER_MASTER);
-pros::Motor leftFront(1);
-pros::Motor leftBack(2);
-pros::Motor rightFront(3);
-pros::Motor rightBack(4);
-
-pros::ADIGyro gyro(1);
+pros::ADIGyro gyro(11);

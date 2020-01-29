@@ -11,10 +11,10 @@
 
 extern pros::Controller master;
 extern pros::Motor leftFront;
-
 extern pros::Motor leftBack;
 extern pros::Motor rightFront;
 extern pros::Motor rightBack;
+extern pros::Motor arm;
 
 extern pros::ADIGyro gyro;
 

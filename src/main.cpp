@@ -1,8 +1,8 @@
 #include "main.h"
-#include "globals.hpp"
 #include "tilter.h"
 #include "intake.h"
 #include "drive.h"
+#include "globals.h"
 
 /**
  * A callback function for LLEMU's center button.
@@ -81,11 +81,11 @@ void autonomous() {
  */
 void opcontrol() {
 
-	while (true) {
+	while (opcontrol) {
 		//drive train function code
 		move();
 		//intake function code
-		intakeMove();
+		intakeMove(1);
 		//angle adjuster function code
 		angleAdjuster();
 		//10ms delay

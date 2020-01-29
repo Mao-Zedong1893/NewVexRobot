@@ -12,9 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="714fcde3-726a-4e00-b9d4-15677f6e9991" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auton.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/auton.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/globals.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/globals.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/auton.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/auton.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/globals.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/globals.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/intake.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/intake.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/auton.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/globals.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/globals.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/intake.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/intake.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +51,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\myCreations\NewVexRobot\src" />
       <recent name="D:\myCreations\NewVexRobot\include" />
+      <recent name="D:\myCreations\NewVexRobot\src" />
       <recent name="D:\myCreations\NewVexRobot\include\pros" />
       <recent name="D:\myCreations\NewVexRobot" />
     </key>

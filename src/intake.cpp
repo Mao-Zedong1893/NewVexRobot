@@ -2,7 +2,7 @@
 #include "globals.hpp"
 #include "intake.h"
 
-void intakeMove(int power){
+void intakeMove(int power) {
   leftIntake.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
   rightIntake.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
   leftIntake.move(-power);

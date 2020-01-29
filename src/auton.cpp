@@ -24,17 +24,12 @@ void rotateCCW(double goal) {
 }
 
 void forward(double distance)  {
-<<<<<<< Updated upstream
     while (distanceCalc(distance) < distanceCalc(leftFront.get_position())) {
         leftFront.move(127);
         leftBack.move(127);
         rightFront.move(127);
         rightBack.move(127);
         pros::delay(20);
-=======
-    while (distanceCalc(distance) < distanceCalc(pros::Motor::get_position())) {
-
->>>>>>> Stashed changes
     }
 }
 
@@ -57,8 +52,4 @@ void routine() {
 
 double distanceCalc(double input) {
     return (12.56 / input) / 900;
-}
-
-double distanceCalc(double input) {
-
 }
