@@ -1,21 +1,16 @@
-//
-// Created by mcque on 2020-01-28.
-//
-#include "tilter.h"
+/*
+Made by: TanishSh 29/01/2020
+*/
 #include "main.h"
-
-void tilterUp() {
-    tilter.move(127);
-
-    if (tilter.get_position() > 100) {
-        tilter.move(0);
+#include "globals.hpp"
+#include "tilter.h"
+void angleAdjuster(){
+    if(master.get_digital(pros::controller_digital_e_t::E_CONTROLLER_DIGITAL_L2)){
+        tilter.move(120);
+    }else if(master.get_digital(pros::controller_digital_e_t::E_CONTROLLER_DIGITAL_L2)){
+        tilter.move(-120);
     }
-}
-
-void tilterDown() {
-    tilter.move(-127);
-
-    if (tilter.get_position() < 0) {
+    else{
         tilter.move(0);
     }
 }

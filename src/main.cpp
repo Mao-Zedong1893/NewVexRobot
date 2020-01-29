@@ -1,7 +1,8 @@
 #include "main.h"
-#include "auton.h"
+#include "globals.hpp"
 #include "tilter.h"
-#include "globals.h"
+#include "intake.h"
+#include "drive.h"
 
 /**
  * A callback function for LLEMU's center button.
@@ -62,7 +63,7 @@ void competition_initialize() {}
  * from where it left off.
  */
 void autonomous() {
-    routine();
+    
 }
 
 /**
@@ -80,25 +81,14 @@ void autonomous() {
  */
 void opcontrol() {
 
-	while (opcontrol) {
-        int power = master.get_analog(ANALOG_LEFT_Y);
-        int turn = master.get_analog(ANALOG_RIGHT_X);
-
-        int left = power + turn;
-        int right = power - turn;
-
-        leftFront.move(left);
-        leftBack.move(left);
-        rightFront.move(right);
-        rightBack.move(right);
-
-        if (master.get_digital(DIGITAL_L1)) {
-            tilterUp();
-        }
-        if (master.get_digital(DIGITAL_L2)) {
-            tilterDown();
-        }
-
-		pros::delay(20);
+	while (true) {
+		//drive train function code
+		move();
+		//intake function code
+		intakeMove();
+		//angle adjuster function code
+		angleAdjuster();
+		//10ms delay
+		pros::delay(10);
 	}
 }
