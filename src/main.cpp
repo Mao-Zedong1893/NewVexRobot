@@ -1,6 +1,7 @@
 #include "main.h"
 #include "auton.h"
 #include "tilter.h"
+#include "globals.h"
 
 /**
  * A callback function for LLEMU's center button.
@@ -78,11 +79,6 @@ void autonomous() {
  * task, not resume it from where it left off.
  */
 void opcontrol() {
-	pros::Controller master(pros::E_CONTROLLER_MASTER);
-	pros::Motor leftFront(1);
-	pros::Motor leftBack(2);
-	pros::Motor rightFront(3);
-	pros::Motor rightBack(4);
 
 	while (opcontrol) {
         int power = master.get_analog(ANALOG_LEFT_Y);

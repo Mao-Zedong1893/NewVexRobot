@@ -3,27 +3,53 @@
 //
 #include "auton.h"
 #include "main.h"
+#include "globals.h"
 
 void rotateCW(double goal) {
-    pros::ADIGyro gyro (1);
     while (goal < gyro.get_value()) {
-        motor
-        pros::delay(20);
+        leftFront.move(127);
+        leftBack.move(127);
+        rightFront.move(-127);
+        rightBack.move(-127);
     }
 }
 
 void rotateCCW(double goal) {
-
+    while (goal < gyro.get_value()) {
+        leftFront.move(-127);
+        leftBack.move(-127);
+        rightFront.move(127);
+        rightBack.move(127);
+    }
 }
 
-void forward()  {
-
+void forward(double distance)  {
+    while (distanceCalc(distance) < distanceCalc(leftFront.get_position())) {
+        leftFront.move(127);
+        leftBack.move(127);
+        rightFront.move(127);
+        rightBack.move(127);
+        pros::delay(20);
+    }
 }
 
-void reverse() {
-
+void reverse(double distance) {
+    while (distanceCalc(distance) < distanceCalc(leftFront.get_position())) {
+        leftFront.move(-127);
+        leftBack.move(-127);
+        rightFront.move(-127);
+        rightBack.move(-127);
+        pros::delay(20);
+    }
 }
 
 void routine() {
+    forward(12);
+    reverse(12);
+    rotateCCW(90);
+    rotateCW(90);
+}
 
+double distanceCalc(double input) {
+    return (12.56 / input) / 900;
 }
