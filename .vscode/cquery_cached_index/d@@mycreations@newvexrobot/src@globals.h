@@ -5,7 +5,12 @@
 #ifndef VEXROBOT_GLOBALS_H
 #define VEXROBOT_GLOBALS_H
 
+<<<<<<< Updated upstream
+=======
 #include <api.h>
+>>>>>>> Stashed changes
+#include "api.h"
+#include "main.h"
 
 extern pros::Controller master;
 extern pros::Motor leftFront;
@@ -13,5 +18,7 @@ extern pros::Motor leftFront;
 extern pros::Motor leftBack;
 extern pros::Motor rightFront;
 extern pros::Motor rightBack;
+
+extern pros::ADIGyro gyro;
 
 #endif //VEXROBOT_GLOBALS_H

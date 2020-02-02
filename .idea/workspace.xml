@@ -12,17 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="714fcde3-726a-4e00-b9d4-15677f6e9991" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/cquery_cached_index/d@@mycreations@newvexrobot/src@globals.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/cquery_cached_index/d@@mycreations@newvexrobot/src@globals.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/cquery_cached_index/d@@mycreations@newvexrobot/src@globals.cpp.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/cquery_cached_index/d@@mycreations@newvexrobot/src@globals.cpp.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/cquery_cached_index/d@@mycreations@newvexrobot/src@globals.h" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/cquery_cached_index/d@@mycreations@newvexrobot/src@globals.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/cquery_cached_index/d@@mycreations@newvexrobot/src@globals.h.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/cquery_cached_index/d@@mycreations@newvexrobot/src@globals.h.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/auton.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auton.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/auton.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/globals.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/globals.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/globals.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/globals.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vexRobotics_towerTakeover" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +86,7 @@
       <workItem from="1580237065406" duration="13016000" />
       <workItem from="1580307419600" duration="1084000" />
       <workItem from="1580309722489" duration="1223000" />
+      <workItem from="1580502682208" duration="24000" />
     </task>
     <servers />
   </component>
@@ -144,11 +135,11 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="168" key="SettingsEditor/0.0.1920.1050/-1680.21.1680.1020@0.0.1920.1050" timestamp="1580258215752" />
-    <state x="1136" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1580309722809">
+    <state x="1136" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1580502684702">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1136" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/-1680.21.1680.1020@0.0.1920.1050" timestamp="1580237065938" />
-    <state x="1136" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1580309722809" />
+    <state x="1136" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1580502684702" />
     <state x="769" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580308226896">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
